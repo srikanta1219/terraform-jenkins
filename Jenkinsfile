@@ -10,7 +10,7 @@ resource "aws_default_vpc" "default" {
   }
 }
 resource "aws_instance" "myserver" {
-  ami           = "ami-0f19d220602031aed" # us-west-1
+  ami           = "ami-0f19d220602031aed" 
   instance_type = "t2.micro"
 
 }
